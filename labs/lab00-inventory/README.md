@@ -38,7 +38,7 @@ Steps, with commands in code blocks. Not prose about the steps.
 ## Result
 
 | What | Value | Where I got it |
-| :--- | :---: | ---:|
+| :--- | :---: | :---:|
 | cpu model | Intel i5-6300U | lscpu |
 | core count | 2 | lscpu |
 | thread count | 4 | lscpu |
