@@ -1,0 +1,424 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261101193225
+Username: DESKTOP-S2BRTG1\Zh
+RunAs User: DESKTOP-S2BRTG1\Zh
+Configuration Name: 
+Machine: DESKTOP-S2BRTG1 (Microsoft Windows NT 10.0.26300.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 7752
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is window-specs.txt
+PS Z:\evidence> Get-CimInstance Win32_Processor | Format-List *
+
+
+Availability                            : 3
+CpuStatus                               : 1
+CurrentVoltage                          : 33
+DeviceID                                : CPU0
+ErrorCleared                            :
+ErrorDescription                        :
+LastErrorCode                           :
+LoadPercentage                          : 67
+Status                                  : OK
+StatusInfo                              : 3
+AddressWidth                            : 64
+DataWidth                               : 64
+ExtClock                                :
+L2CacheSize                             : 256
+L2CacheSpeed                            :
+MaxClockSpeed                           : 2496
+PowerManagementSupported                : False
+ProcessorType                           : 3
+Revision                                : 19971
+SocketDesignation                       : CPU 0
+Version                                 :
+VoltageCaps                             : 2
+Caption                                 : Intel64 Family
+                                          6 Model 78
+                                          Stepping 3
+Description                             : Intel64 Family
+                                          6 Model 78
+                                          Stepping 3
+InstallDate                             :
+Name                                    : Intel(R)
+                                          Core(TM)
+                                          i5-6300U CPU @
+                                          2.40GHz
+ConfigManagerErrorCode                  :
+ConfigManagerUserConfig                 :
+CreationClassName                       : Win32_Processor
+PNPDeviceID                             :
+PowerManagementCapabilities             :
+SystemCreationClassName                 : Win32_ComputerSy
+                                          stem
+SystemName                              : DESKTOP-S2BRTG1
+CurrentClockSpeed                       : 2496
+Family                                  : 2
+OtherFamilyDescription                  :
+Role                                    : CPU
+Stepping                                :
+UniqueId                                :
+UpgradeMethod                           : 4
+Architecture                            : 9
+AssetTag                                :
+Characteristics                         : 36
+L3CacheSize                             : 3072
+L3CacheSpeed                            : 0
+Level                                   : 6
+Manufacturer                            : GenuineIntel
+NumberOfCores                           : 1
+NumberOfEnabledCore                     : 1
+NumberOfLogicalProcessors               : 1
+PartNumber                              :
+ProcessorId                             : 0F8BFBFF000406E3
+SecondLevelAddressTranslationExtensions : False
+SerialNumber                            :
+ThreadCount                             : 0
+VirtualizationFirmwareEnabled           : False
+VMMonitorModeExtensions                 : False
+PSComputerName                          :
+CimClass                                : root/cimv2:Win32
+                                          _Processor
+CimInstanceProperties                   : {Caption,
+                                          Description,
+                                          InstallDate,
+                                          Name...}
+CimSystemProperties                     : Microsoft.Manage
+                                          ment.Infrastruct
+                                          ure.CimSystemPro
+                                          perties
+
+Availability                            : 3
+CpuStatus                               : 1
+CurrentVoltage                          : 33
+DeviceID                                : CPU1
+ErrorCleared                            :
+ErrorDescription                        :
+LastErrorCode                           :
+LoadPercentage                          : 52
+Status                                  : OK
+StatusInfo                              : 3
+AddressWidth                            : 64
+DataWidth                               : 64
+ExtClock                                :
+L2CacheSize                             : 256
+L2CacheSpeed                            :
+MaxClockSpeed                           : 2496
+PowerManagementSupported                : False
+ProcessorType                           : 3
+Revision                                : 19971
+SocketDesignation                       : CPU 1
+Version                                 :
+VoltageCaps                             : 2
+Caption                                 : Intel64 Family
+                                          6 Model 78
+                                          Stepping 3
+Description                             : Intel64 Family
+                                          6 Model 78
+                                          Stepping 3
+InstallDate                             :
+Name                                    : Intel(R)
+                                          Core(TM)
+                                          i5-6300U CPU @
+                                          2.40GHz
+ConfigManagerErrorCode                  :
+ConfigManagerUserConfig                 :
+CreationClassName                       : Win32_Processor
+PNPDeviceID                             :
+PowerManagementCapabilities             :
+SystemCreationClassName                 : Win32_ComputerSy
+                                          stem
+SystemName                              : DESKTOP-S2BRTG1
+CurrentClockSpeed                       : 2496
+Family                                  : 2
+OtherFamilyDescription                  :
+Role                                    : CPU
+Stepping                                :
+UniqueId                                :
+UpgradeMethod                           : 4
+Architecture                            : 9
+AssetTag                                :
+Characteristics                         : 36
+L3CacheSize                             : 3072
+L3CacheSpeed                            : 0
+Level                                   : 6
+Manufacturer                            : GenuineIntel
+NumberOfCores                           : 1
+NumberOfEnabledCore                     : 1
+NumberOfLogicalProcessors               : 1
+PartNumber                              :
+ProcessorId                             : 0F8BFBFF000406E3
+SecondLevelAddressTranslationExtensions : False
+SerialNumber                            :
+ThreadCount                             : 0
+VirtualizationFirmwareEnabled           : False
+VMMonitorModeExtensions                 : False
+PSComputerName                          :
+CimClass                                : root/cimv2:Win32
+                                          _Processor
+CimInstanceProperties                   : {Caption,
+                                          Description,
+                                          InstallDate,
+                                          Name...}
+CimSystemProperties                     : Microsoft.Manage
+                                          ment.Infrastruct
+                                          ure.CimSystemPro
+                                          perties
+
+
+
+PS Z:\evidence> Get-CimInstance Win32_ComputerSystem | Format-List *
+
+
+AdminPasswordStatus         : 1
+BootupState                 : Normal boot
+ChassisBootupState          : 3
+KeyboardPasswordStatus      : 3
+PowerOnPasswordStatus       : 0
+PowerSupplyState            : 3
+PowerState                  : 0
+FrontPanelResetStatus       : 3
+ThermalState                : 3
+Status                      : OK
+Name                        : DESKTOP-S2BRTG1
+PowerManagementCapabilities :
+PowerManagementSupported    :
+Caption                     : DESKTOP-S2BRTG1
+Description                 : AT/AT COMPATIBLE
+InstallDate                 :
+CreationClassName           : Win32_ComputerSystem
+NameFormat                  :
+PrimaryOwnerContact         :
+PrimaryOwnerName            : Zh
+Roles                       : {LM_Workstation, LM_Server,
+                              NT}
+InitialLoadInfo             :
+LastLoadInfo                :
+ResetCapability             : 1
+AutomaticManagedPagefile    : True
+AutomaticResetBootOption    : True
+AutomaticResetCapability    : True
+BootOptionOnLimit           : 3
+BootOptionOnWatchDog        : 3
+BootROMSupported            : True
+BootStatus                  : {0, 0, 0, 33...}
+ChassisSKUNumber            :
+CurrentTimeZone             : 360
+DaylightInEffect            :
+DNSHostName                 : DESKTOP-S2BRTG1
+Domain                      : WORKGROUP
+DomainRole                  : 0
+EnableDaylightSavingsTime   : True
+HypervisorPresent           : True
+InfraredSupported           : False
+Manufacturer                : VMware, Inc.
+Model                       : VMware20,1
+NetworkServerModeEnabled    : True
+NumberOfLogicalProcessors   : 2
+NumberOfProcessors          : 2
+OEMLogoBitmap               :
+OEMStringArray              : {[MS_VM_CERT/SHA1/27d66596a6
+                              1c48dd3dc7216fd715126e33f59a
+                              e7], Welcome to the Virtual
+                              Machine}
+PartOfDomain                : False
+PauseAfterReset             : 3932100000
+PCSystemType                : 1
+PCSystemTypeEx              : 1
+ResetCount                  : -1
+ResetLimit                  : -1
+SupportContactDescription   :
+SystemFamily                :
+SystemSKUNumber             :
+SystemStartupDelay          :
+SystemStartupOptions        :
+SystemStartupSetting        :
+SystemType                  : x64-based PC
+TotalPhysicalMemory         : 4293677056
+UserName                    : DESKTOP-S2BRTG1\Zh
+WakeUpType                  : 6
+Workgroup                   : WORKGROUP
+PSComputerName              :
+CimClass                    : root/cimv2:Win32_ComputerSys
+                              tem
+CimInstanceProperties       : {Caption, Description,
+                              InstallDate, Name...}
+CimSystemProperties         : Microsoft.Management.Infrast
+                              ructure.CimSystemProperties
+
+
+
+PS Z:\evidence> Get-CimInstance Win32_PhysicalMemory | Format-List *
+
+
+Caption               : Physical Memory
+Description           : Physical Memory
+InstallDate           :
+Name                  : Physical Memory
+Status                :
+CreationClassName     : Win32_PhysicalMemory
+Manufacturer          : VMware Virtual RAM
+Model                 :
+OtherIdentifyingInfo  :
+PartNumber            : VMW-4096MB
+PoweredOn             :
+SerialNumber          : 00000001
+SKU                   :
+Tag                   : Physical Memory 0
+Version               :
+HotSwappable          :
+Removable             :
+Replaceable           :
+FormFactor            : 8
+BankLabel             : RAM slot #0
+Capacity              : 4294967296
+DataWidth             : 64
+InterleavePosition    :
+MemoryType            : 2
+PositionInRow         :
+Speed                 :
+TotalWidth            : 64
+Attributes            : 0
+ConfiguredClockSpeed  : 4800
+ConfiguredVoltage     :
+DeviceLocator         : RAM slot #0
+InterleaveDataDepth   :
+MaxVoltage            :
+MinVoltage            :
+SMBIOSMemoryType      : 3
+TypeDetail            : 128
+PSComputerName        :
+CimClass              : root/cimv2:Win32_PhysicalMemory
+CimInstanceProperties : {Caption, Description,
+                        InstallDate, Name...}
+CimSystemProperties   : Microsoft.Management.Infrastructur
+                        e.CimSystemProperties
+
+
+
+PS Z:\evidence> Get-PhysicalDisk | Format-List *
+
+
+ClassName                        : MSFT_PhysicalDisk
+Usage                            : Auto-Select
+OperationalStatus                : OK
+UniqueIdFormat                   : SCSI Name String
+HealthStatus                     : Healthy
+BusType                          : NVMe
+CannotPoolReason                 : Insufficient Capacity
+SupportedUsages                  : {Auto-Select,
+                                   Manual-Select, Hot
+                                   Spare, Retired...}
+MediaType                        : SSD
+SpindleSpeed                     : 0
+ObjectId                         : {1}\\DESKTOP-S2BRTG1\ro
+                                   ot/Microsoft/Windows/St
+                                   orage/Providers_v2\SPAC
+                                   ES_PhysicalDisk.ObjectI
+                                   d="{b11df424-ce54-11f1-
+                                   bd97-806e6f6e6963}:PD:{
+                                   4f7ced07-6fba-987e-a5d7
+                                   -146497ecfa88}"
+PassThroughClass                 :
+PassThroughIds                   :
+PassThroughNamespace             :
+PassThroughServer                :
+UniqueId                         : eui.5FEF2E8EE894AF4F000
+                                   C2969E53D9F5F
+Description                      :
+FriendlyName                     : VMware Virtual NVMe
+                                   Disk
+Manufacturer                     :
+Model                            : VMware Virtual NVMe
+                                   Disk
+OperationalDetails               :
+PhysicalLocation                 : nvme0
+SerialNumber                     : 5FEF_2E8E_E894_AF4F_000
+                                   C_2969_E53D_9F5F.
+AdapterSerialNumber              : VMware NVME_0000
+AllocatedSize                    : 68718428160
+CanPool                          : False
+DeviceId                         : 0
+EnclosureNumber                  :
+FirmwareVersion                  : 1.4
+FruId                            : VMware NVME_0000
+IsIndicationEnabled              : False
+IsPartial                        : True
+LogicalSectorSize                : 512
+OtherCannotPoolReasonDescription :
+PartNumber                       :
+PhysicalSectorSize               : 4096
+Size                             : 68719476736
+SlotNumber                       :
+SoftwareVersion                  :
+StoragePoolUniqueId              :
+VirtualDiskFootprint             : 0
+PSComputerName                   :
+CimClass                         : root/microsoft/windows/
+                                   storage:MSFT_PhysicalDi
+                                   sk
+CimInstanceProperties            : {ObjectId,
+                                   PassThroughClass,
+                                   PassThroughIds, PassThr
+                                   oughNamespace...}
+CimSystemProperties              : Microsoft.Management.In
+                                   frastructure.CimSystemP
+                                   roperties
+
+
+
+PS Z:\evidence> Get-CimInstance Win32_BaseBoard | Format-list *
+
+
+Status                  : OK
+Name                    : Base Board
+PoweredOn               : True
+Caption                 : Base Board
+Description             : Base Board
+InstallDate             :
+CreationClassName       : Win32_BaseBoard
+Manufacturer            : Intel Corporation
+Model                   :
+OtherIdentifyingInfo    :
+PartNumber              :
+SerialNumber            : None
+SKU                     :
+Tag                     : Base Board
+Version                 : None
+Depth                   :
+Height                  :
+HotSwappable            : False
+Removable               : False
+Replaceable             : False
+Weight                  :
+Width                   :
+HostingBoard            : False
+RequirementsDescription :
+RequiresDaughterBoard   : False
+SlotLayout              :
+SpecialRequirements     :
+ConfigOptions           :
+Product                 : 440BX Desktop Reference Platform
+PSComputerName          :
+CimClass                : root/cimv2:Win32_BaseBoard
+CimInstanceProperties   : {Caption, Description,
+                          InstallDate, Name...}
+CimSystemProperties     : Microsoft.Management.Infrastruct
+                          ure.CimSystemProperties
+
+
+
+PS Z:\evidence> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20261101193557
+**********************
