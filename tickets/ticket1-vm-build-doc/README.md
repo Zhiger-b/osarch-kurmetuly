@@ -24,14 +24,14 @@ I created step by step guide how to make new virtual machines by using ISO image
 
 ## 4. Evidence
 
-[evidence/01-new-vm-wizard.png](evidence/01-new-vm-wizard.png) - the creation of new VM
-[evidence/02-disk-settings.png](evidence/02-disk-settings.png) - setting up the disk storage of VM
-[evidence/03-network-adapter.png](evidence/03-network-adapter.png]) - network adapter setting
-[evidence/04-guest-uname.txt](evidence/04-guest-uname.txt) - linux is running 
-[evidence/05-ping-between-guests.txt](evidence/05-ping-between-guests.txt) - two VMs can "talk"
-[evidence/06-snapshot-list.png](evidence/06-snapshot-list.png) - can revert if something breaks
-[evidence/Linux-ubuntu-setup](evidence/Linux-ubuntu-setup]) - ubuntu step by step photos
-[evidence/Windows-11-setup](evidence/Windows-11-setup) - windows step by step photos
+- [evidence/01-new-vm-wizard.png](evidence/01-new-vm-wizard.png) - the creation of new VM
+- [evidence/02-disk-settings.png](evidence/02-disk-settings.png) - setting up the disk storage of VM
+- [evidence/03-network-adapter.png](evidence/03-network-adapter.png]) - network adapter setting
+- [evidence/04-guest-uname.txt](evidence/04-guest-uname.txt) - linux is running 
+- [evidence/05-ping-between-guests.txt](evidence/05-ping-between-guests.txt) - two VMs can "talk"
+- [evidence/06-snapshot-list.png](evidence/06-snapshot-list.png) - can revert if something breaks
+- [evidence/Linux-ubuntu-setup](evidence/Linux-ubuntu-setup]) - ubuntu step by step photos
+- [evidence/Windows-11-setup](evidence/Windows-11-setup) - windows step by step photos
 
 ## 5. What I would do differently
 
