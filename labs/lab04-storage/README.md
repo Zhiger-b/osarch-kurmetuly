@@ -9,7 +9,8 @@ Disk 0: partition style gpt, firmware_type UEFI — because window11 uses UEFI
 New disk: partition style gpt — because firmware type is UEFI
 
 ## Linux layout — before
-'''
+
+```
 NAME                       SIZE TYPE FSTYPE      MOUNTPOINT
 loop0                      1.5M loop squashfs    /snap/hwctl/123
 loop1                     66.8M loop squashfs    /snap/core24/1643
@@ -24,10 +25,9 @@ sdb                          2G disk
 sdc                          2G disk             
 sdd                          2G disk             
 sr0                        2.7G rom  iso9660  
-'''
-
+```
 ## Linux layout — after the rebuild
-'''
+```
 NAME                       SIZE TYPE  FSTYPE            MOUNTPOINT
 loop0                      1.5M loop  squashfs          /snap/hwctl/123
 loop1                     66.8M loop  squashfs          /snap/core24/1643
@@ -47,7 +47,7 @@ sdd                          2G disk
 └─sdd1                       2G part  linux_raid_member 
   └─md0                      2G raid1 ext4              /mnt/mirror
 sr0                        2.7G rom   iso9660          
-'''
+```
 
 | Role            | Device |
 |-----------------|--------|
