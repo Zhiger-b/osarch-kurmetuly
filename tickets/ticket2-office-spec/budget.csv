@@ -1,0 +1,54 @@
+﻿role,component,model,price KZT,source,date
+web developer,CPU,Intel Core i5-12600K OEM,105750,dns-shop.kz,2026-11-15
+web developer,Motherboard,GIGABYTE H610M S2H V2,41320,dns-shop.kz,2026-11-15
+web developer,RAM,"Netac Basic DDR5 UDIMM [NTBSD5P56SP-16] 16 GB module, 1 of 2 (5600 MHz)",109690,dns-shop.kz,2026-11-15
+web developer,RAM,"Netac Basic DDR5 UDIMM [NTBSD5P56SP-16] 16 GB module, 2 of 2 (5600 MHz)",109690,dns-shop.kz,2026-11-15
+web developer,CPU cooler,Thermaltake TH280 V2 ARGB Sync,69170,dns-shop.kz,2026-11-15
+web developer,SSD M.2 NVMe,ARDOR GAMING Simple SI1024QSHI 1024 GB,81790,dns-shop.kz,2026-11-15
+web developer,PSU,Xilence Gaming series XN320 650W [XP650R12],28680,dns-shop.kz,2026-11-15
+web developer,Case,ARDOR GAMING Rare M6,24310,dns-shop.kz,2026-11-15
+web developer,Operating system,Microsoft Windows 11 Home 64-bit FPP BOX (USB),79840,dns-shop.kz,2026-11-15
+web developer,Monitor,ARDOR GAMING DARKMOON AQ27N1 27in 2560x1440 IPS 200 Hz,89060,dns-shop.kz,2026-11-15
+web developer,Keyboard,DEXP KW-904BU wireless,4550,dns-shop.kz,2026-11-15
+web developer,Mouse,Aceline WM-H102 wireless,2460,dns-shop.kz,2026-11-15
+web developer,Speakers,Defender SPK 240,4740,dns-shop.kz,2026-11-15
+accountant,CPU,Intel Core i3-12100T OEM,67830,dns-shop.kz,2026-11-15
+accountant,Motherboard,GIGABYTE H610M S2H V2,41320,dns-shop.kz,2026-11-15
+accountant,RAM,"Netac Basic DDR5 UDIMM [NTBSD5P56SP-16] 16 GB (1x16 GB, 5600 MHz)",109690,dns-shop.kz,2026-11-15
+accountant,CPU cooler,ID-COOLING SE-903-SD V3,5670,dns-shop.kz,2026-11-15
+accountant,SSD M.2 NVMe,ARDOR GAMING Simple SI1024QSHI 1024 GB,81790,dns-shop.kz,2026-11-15
+accountant,PSU,Xilence Gaming series XN320 650W [XP650R12],28680,dns-shop.kz,2026-11-15
+accountant,Case,ARDOR GAMING Rare M6,24310,dns-shop.kz,2026-11-15
+accountant,Operating system,Microsoft Windows 11 Home 64-bit FPP BOX (USB),79840,dns-shop.kz,2026-11-15
+accountant,Monitor,ARDOR GAMING DARKMOON AQ27N1 27in 2560x1440 IPS 200 Hz,89060,dns-shop.kz,2026-11-15
+accountant,Keyboard,DEXP KW-904BU wireless,4550,dns-shop.kz,2026-11-15
+accountant,Mouse,Aceline WM-H102 wireless,2460,dns-shop.kz,2026-11-15
+accountant,Speakers,Defender SPK 240,4740,dns-shop.kz,2026-11-15
+sales,CPU,Intel Core i3-12100T OEM,67830,dns-shop.kz,2026-11-15
+sales,Motherboard,GIGABYTE H610M S2H V2,41320,dns-shop.kz,2026-11-15
+sales,RAM,"ADATA DDR5 UDIMM [AD5U56008G-DT] 16 GB (2x8 GB, 5600 MHz)",146090,dns-shop.kz,2026-11-15
+sales,CPU cooler,ID-COOLING SE-903-SD V3,5670,dns-shop.kz,2026-11-15
+sales,SSD M.2 NVMe,ARDOR GAMING Simple SI1024QSHI 1024 GB,81790,dns-shop.kz,2026-11-15
+sales,PSU,Xilence Gaming series XN320 650W [XP650R12],28680,dns-shop.kz,2026-11-15
+sales,Case,ARDOR GAMING Rare M6,24310,dns-shop.kz,2026-11-15
+sales,Operating system,Microsoft Windows 11 Home 64-bit FPP BOX (USB),79840,dns-shop.kz,2026-11-15
+sales,Monitor,ARDOR GAMING DARKMOON AQ27N1 27in 2560x1440 IPS 200 Hz,89060,dns-shop.kz,2026-11-15
+sales,Keyboard,DEXP KW-904BU wireless,4550,dns-shop.kz,2026-11-15
+sales,Mouse,Aceline WM-H102 wireless,2460,dns-shop.kz,2026-11-15
+sales,Speakers,Defender SPK 240,4740,dns-shop.kz,2026-11-15
+sales,Webcam,DEXP DQ4M3FA1 4 MP 2560x1440,6990,dns-shop.kz,2026-11-15
+sales,Microphone,DEXP U500 desktop wired,4740,dns-shop.kz,2026-11-15
+designer,CPU,Intel Core i5-13600KF OEM,108150,dns-shop.kz,2026-11-15
+designer,GPU,GIGABYTE GeForce RTX 5050 WINDFORCE OC V2 [GV-N5050WF2OCV2-8GD] 8 GB,217090,dns-shop.kz,2026-11-15
+designer,Motherboard,GIGABYTE H610M S2H V2,41320,dns-shop.kz,2026-11-15
+designer,RAM,"ADATA DDR5 UDIMM [AD5U56008G-DT] 16 GB (2x8 GB, 5600 MHz)",146090,dns-shop.kz,2026-11-15
+designer,CPU cooler,Thermaltake TH280 V2 ARGB Sync,69170,dns-shop.kz,2026-11-15
+designer,SSD M.2 NVMe,ARDOR GAMING Simple SI1024QSHI 1024 GB,81790,dns-shop.kz,2026-11-15
+designer,PSU,Cougar GEC 850 [CGR GC-850] 850 W 80+ Gold,40690,dns-shop.kz,2026-11-15
+designer,Case,ARDOR GAMING Rare M6,24310,dns-shop.kz,2026-11-15
+designer,Operating system,Microsoft Windows 11 Home 64-bit FPP BOX (USB),79840,dns-shop.kz,2026-11-15
+designer,Monitor,ARDOR GAMING DARKMOON AQ27N1 27in 2560x1440 IPS 200 Hz,89060,dns-shop.kz,2026-11-15
+designer,Monitor,Titan Army G2785S 26.5in 2560x1440 QD-OLED,183990,dns-shop.kz,2026-11-15
+designer,Keyboard,DEXP KW-904BU wireless,4550,dns-shop.kz,2026-11-15
+designer,Mouse,Aceline WM-H102 wireless,2460,dns-shop.kz,2026-11-15
+designer,Speakers,Defender SPK 240,4740,dns-shop.kz,2026-11-15
